@@ -1,0 +1,18 @@
+
+3️⃣ Longest Well-Performing Interval
+
+Concepts: Prefix Sum, HashMap
+Problem:
+You are given hours worked each day, where hours[i] > 8 is a "tiring day".
+Return the length of the longest well-performing interval, where the number of tiring days > non-tiring days.
+
+Example:
+Input: hours = [9,9,6,0,6,6,9]
+Output: 3
+Explanation: [9,9,6] is the longest interval.
+
+Hint:
+
+Convert array to +1 (tiring) and -1 (non-tiring).
+
+Use prefix sum and HashMap to track earliest occurrence.
