@@ -1,0 +1,11 @@
+🧩 Problem 1: Lowest Common Ancestor in a BST
+
+Concepts: BST property, recursion
+Statement:
+Given a BST and two nodes p and q, find their lowest common ancestor (LCA).
+The LCA of two nodes is the lowest node that has both p and q as descendants.
+
+Example:
+
+Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8  
+Output: 6

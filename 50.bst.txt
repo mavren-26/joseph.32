@@ -1,0 +1,10 @@
+🧩 Problem 3: Convert Sorted Array to BST
+
+Concepts: Recursion, divide and conquer
+Statement:
+Given an integer array nums sorted in ascending order, convert it to a height-balanced BST.
+
+Example:
+
+Input: nums = [-10,-3,0,5,9]  
+Output: [0,-3,9,-10,null,5]
