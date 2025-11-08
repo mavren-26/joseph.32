@@ -1,5 +1,4 @@
 
-
 var sortedArrayToBST = function(nums) {
     function helper(left, right) {
         if (left > right) return null;

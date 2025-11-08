@@ -1,0 +1,4 @@
+🧠 Problem:
+
+You can move from index i to i+1, i-1, or any index j with the same value as arr[i].
+Find the minimum number of jumps to reach the last index.
