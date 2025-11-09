@@ -1,0 +1,28 @@
+🧠 Problem Statement
+
+You are given n tasks labeled from 1 to n.
+Each task takes 1 unit of time to complete.
+
+Some tasks have dependencies, meaning that a task cannot start until all its prerequisite tasks have finished.
+
+You can perform multiple tasks in parallel, as long as their dependencies are satisfied.
+
+Your task is to determine the minimum total time required to complete all tasks.
+
+📘 Example 1
+
+Input:
+
+n = 3  
+deps = [[1, 3], [2, 3]]
+
+
+Explanation:
+
+Tasks 1 and 2 can be done in parallel in the first unit of time.
+
+Task 3 depends on both 1 and 2, so it can only start after both are done.
+
+Output:
+
+2

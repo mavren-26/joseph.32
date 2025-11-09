@@ -1,0 +1,21 @@
+🧠 Problem Statement
+
+There is a new alien language that uses the English lowercase letters, but the order of the letters is unknown to you.
+
+You are given a list of words from the alien dictionary, sorted lexicographically according to the rules of this new language.
+
+Your task is to derive the order of the characters in this alien language and return it as a string.
+
+If there is no valid ordering, return an empty string "".
+If multiple valid orderings exist, return any one of them.
+
+📘 Example 1
+
+Input:
+
+words = ["wrt", "wrf", "er", "ett", "rftt"]
+
+
+Output:
+
+"wertf"
