@@ -1,0 +1,14 @@
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+int sumOfLeftLeaves(TreeNode* root) {
+    if (!root) return 0;
+    int sum = 0;
+    if (root->left && !root->left->left && !root->left->right)
+        sum += root->left->val;
+    return sum + sumOfLeftLeaves(root->left) + sumOfLeftLeaves(root->right);
+}

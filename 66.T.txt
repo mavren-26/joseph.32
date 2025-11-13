@@ -1,0 +1,9 @@
+🌲 Problem 2: Count Nodes Equal to Average of Subtree
+
+Problem Statement:
+Given the root of a binary tree, return the number of nodes where the node’s value is equal to the average of its subtree (integer division).
+
+Example:
+Input: [4,8,5,0,1,null,6]
+Output: 5
+Explanation: The nodes 5, 6, 0, 1, and 8 satisfy the condition.

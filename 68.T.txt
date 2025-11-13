@@ -1,0 +1,10 @@
+🌾 Problem 4: Lowest Common Ancestor of Deepest Leaves
+
+Problem Statement:
+Given the root of a binary tree, return the lowest common ancestor (LCA) of its deepest leaves.
+If multiple deepest leaves exist, find their common ancestor.
+
+Example:
+Input: [1,2,3,4,5,null,6,7,null,null,null,null,8]
+Output: 6
+Explanation: Deepest leaf is 8, and its ancestor is 6.

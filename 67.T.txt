@@ -1,0 +1,10 @@
+🌴 Problem 3: Maximum Depth of Binary Tree (Iterative)
+
+Problem Statement:
+Given a binary tree, find its maximum depth.
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+Solve this iteratively using a queue (BFS).
+
+Example:
+Input: [3,9,20,null,null,15,7]
+Output: 3
