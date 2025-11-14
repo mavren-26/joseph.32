@@ -1,0 +1,24 @@
+Problem Statement
+
+Two runners, A and B, start from opposite ends of a 24-mile straight road.
+
+Runner A runs at 6 miles/hour
+
+Runner B runs at 10 miles/hour
+
+They both start at the same time and run toward each other.
+
+Question
+
+After how many hours will they meet?
+
+How far from A’s starting point will they meet?
+
+Solution Approach
+
+Use formula:
+
+Relative Speed = Speed₁ + Speed₂ (since they move toward each other)
+
+Distance covered = Total distance
+Time = Distance / Relative Speed

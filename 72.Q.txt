@@ -1,0 +1,28 @@
+✅ Problem 2: Profit & Loss — Marked Price Strategy
+Problem Statement
+
+A store in the US sells a laptop with:
+
+Cost Price (CP): $800
+
+The shopkeeper wants a 25% profit
+
+He also wants to give customers a 10% discount on Marked Price (MP)
+
+Question
+
+What should the Marked Price (MP) be so that after giving the 10% discount, the shopkeeper still earns a 25% profit?
+
+Solution Approach
+
+Let MP = x
+
+After discount = 0.9x
+
+Selling Price must be:
+SP = CP × (1 + Profit%)
+SP = 800 × 1.25 = $1000
+
+So:
+0.9x = 1000
+x = 1000 / 0.9 = $1111.11
