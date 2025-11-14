@@ -1,0 +1,22 @@
+✅ Problem 1: Minimum Element Stack
+Problem Statement
+
+You are given an empty stack that supports the following operations:
+
+push(x) → push element x onto the stack
+
+pop() → remove the top element from the stack
+
+top() → return the top element
+
+getMin() → return the minimum element in the stack at any time
+
+All operations must run in O(1) time.
+
+You need to implement this stack using two stacks:
+
+A normal stack
+
+A "min stack" that always stores the minimum at each level.
+
+Return results of operations in sequence.

@@ -1,0 +1,19 @@
+✅ Problem 2: Balanced Parentheses
+Problem Statement
+
+Given a string containing characters '(' , ')' , '{' , '}' , '[' , ']',
+determine if the string has balanced parentheses.
+
+A valid string must satisfy:
+
+Every opening bracket has a matching closing bracket.
+
+Order must be correct.
+
+Stack must be used.
+
+Return:
+
+true if balanced
+
+false if not
