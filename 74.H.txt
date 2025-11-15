@@ -1,0 +1,39 @@
+🧩 Problem 1: Longest Substring Without Repeating Characters
+Problem Statement
+
+You are given a string s.
+Return the length of the longest substring that contains no repeating characters.
+
+A substring is a contiguous sequence of characters in the string.
+
+You must solve this in O(n) time using a sliding window + hash map.
+
+Constraints
+
+0 <= len(s) <= 10^5
+
+s consists of printable ASCII characters.
+
+Examples
+
+Example 1
+
+Input: s = "abcabcbb"
+Output: 3
+Explanation: "abc" is the longest substring without repeating characters.
+
+
+Example 2
+
+Input: s = "bbbbb"
+Output: 1
+Explanation: "b" is the longest substring without repeating characters.
+
+
+Example 3
+
+Input: s = "pwwkew"
+Output: 3
+Explanation: "wke" is a valid answer.
+
+🔹 Python Solution
