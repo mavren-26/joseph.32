@@ -1,0 +1,18 @@
+🟩 Problem 2 — Next Greater Element (Monotonic Stack)
+🎯 Problem Statement
+
+Given an array nums of size n, return an array where each element is replaced by the next greater element to its right.
+If none exists, replace it with -1.
+
+Constraints:
+
+1 ≤ n ≤ 10^5
+
+Must run in O(n) using a monotonic decreasing stack.
+
+Example
+Input:
+nums = [2,1,2,4,3]
+
+Output:
+[4,2,4,-1,-1]
