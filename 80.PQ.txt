@@ -1,0 +1,73 @@
+Problem 2 — Task Scheduler (Cooldown)
+Problem statement
+
+Given a list of tasks represented by uppercase letters A..Z and a non-negative integer n representing the cooldown period between two same tasks, return the minimum number of time slots required to finish all tasks. You can execute one task per time slot or be idle.
+
+Example
+
+Input: tasks = ["A","A","A","B","B","B"], n = 2 → Output: 8
+One optimal schedule: A B idle A B idle A B → total 8 slots.
+
+Constraints
+
+1 <= tasks.length <= 10^4
+
+0 <= n <= 100
+
+Aim for O(T log 26) i.e. O(T) time essentially using a max-heap (greedy).
+
+
+
+(max count of any candy - 1) * (n + 1) + (how many candies have that max count)
+
+
+🧒 Imagine This:
+
+You have a bunch of candies:
+🍬 A, 🍬 B, 🍬 C…
+
+But your mom says:
+
+“If you eat the same candy again, you must wait n minutes before eating it.”
+
+So if n = 2, it means:
+
+🍬 A → wait → wait → 🍬 A → wait → wait → 🍬 A
+
+That's it.
+
+🍬 So what’s the problem actually asking?
+
+You must eat all the candies,
+and we want to know:
+
+👉 How much total time (minutes) will it take?
+(You eat exactly one candy per minute.
+If you can’t eat any candy, you wait idle.)
+
+🧠 Key Idea (super simple):
+
+The candy you have the most of decides everything.
+
+Example:
+
+A A A B B B
+You have 3 A’s
+You have 3 B’s
+These are the MOST.
+
+So you place the A candies with gaps of size n between them:
+
+A _ _ A _ _ A
+
+
+The _ are waiting periods unless something else fills them.
+
+Since you also have B B B, you can fill the blanks:
+
+A B _ A B _ A B
+
+
+If there were no B’s, the blanks would stay empty = idle.
+
+That’s it.
