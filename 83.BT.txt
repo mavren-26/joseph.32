@@ -1,0 +1,15 @@
+✅ EASY BACKTRACKING PROBLEM 1 — Generate All Subsets
+🧠 Problem
+
+Given an array of N integers, print all subsets (the power set).
+Order does not matter.
+
+Example
+
+Input: [1, 2]
+Output:
+
+[]
+[1]
+[2]
+[1, 2]

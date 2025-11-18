@@ -1,0 +1,12 @@
+✅ EASY BACKTRACKING PROBLEM 2 — Generate All Permutations
+🧠 Problem
+
+Given an array of N integers, print all permutations.
+
+Example
+
+Input: [1, 2]
+Output:
+
+[1,2]
+[2,1]
