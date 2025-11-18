@@ -1,0 +1,28 @@
+🧩 Problem 2 — CPU Job Scheduling
+Problem Statement
+
+You are given N jobs, each job has:
+
+id (string)
+
+execution time (integer)
+
+priority (integer; higher = more important)
+
+Jobs must be executed such that:
+
+Higher priority jobs run first
+
+If two jobs have same priority → job with lower execution time goes first
+
+If still tied → lexicographically smaller job id first
+
+You will get Q commands:
+
+"ADD id time priority"
+
+"RUN" → Pop and print job id
+
+"TOP" → Print next job id
+
+"COUNT" → Print number of jobs

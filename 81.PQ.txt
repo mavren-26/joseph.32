@@ -1,0 +1,33 @@
+🧩 Problem 1 — Hospital Emergency Queue
+Problem Statement
+
+A hospital has an emergency queue where each patient has:
+
+name (string)
+
+severity (integer, higher = more serious)
+
+arrival order (implicit by input order)
+
+Patients with higher severity must be treated first.
+If two patients have the same severity, treat the one who arrived earlier.
+
+You will be given N operations:
+
+"ADD name severity" → Add a patient
+
+"TREAT" → Pop and print the name of the patient being treated
+
+"PEEK" → Print the name of the next patient
+
+"SIZE" → Print current number of patients
+
+Input
+N
+<operation 1>
+<operation 2>
+...
+
+Output
+
+Correct output of TREAT / PEEK / SIZE commands.
