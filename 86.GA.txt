@@ -1,0 +1,21 @@
+Problem 2: Fractional Knapsack Problem
+Problem Statement
+
+Given N items, each with a weight and value, and a knapsack with maximum weight W, maximize the total value you can carry. You can take fractions of items.
+
+Input:
+
+N = number of items
+
+Arrays value[] and weight[]
+
+Maximum weight W
+
+Output:
+
+Maximum value possible (can be fractional)
+
+
+Input: value = [60, 100, 120], weight = [10, 20, 30], W = 50
+Output: 240.0
+Explanation: Take full items 2 and 3, and 1/2 of item 1
