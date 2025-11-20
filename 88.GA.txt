@@ -1,0 +1,17 @@
+🔥 Problem 2 — Minimum Arrows to Burst Balloons (Greedy Interval Problem)
+
+Problem Statement
+
+You’re given balloons represented by intervals:
+
+[[x1,y1], [x2,y2], ...]
+
+
+One arrow can burst all balloons that overlap at a single x-point.
+
+Return minimum number of arrows needed.
+
+Example:
+
+[[10,16],[2,8],[1,6],[7,12]]
+→ 2
