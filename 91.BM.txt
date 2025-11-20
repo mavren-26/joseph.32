@@ -1,0 +1,17 @@
+🔥 Problem 1 — Find the Single Number
+Problem Statement
+
+You are given an integer array nums where every number appears twice except one number that appears only once.
+Return that number.
+
+Example:
+
+Input: [4,1,2,1,2]
+Output: 4
+
+
+✔ Use XOR property:
+
+a ^ a = 0  
+a ^ 0 = a  
+All duplicates cancel out → remaining number = answer

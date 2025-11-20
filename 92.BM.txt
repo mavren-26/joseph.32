@@ -1,0 +1,12 @@
+🔥 Problem 2 — Count Number of 1 Bits (Hamming Weight)
+
+Problem Statement
+
+Given a positive integer n, return the number of 1 bits in its binary representation.
+This is also known as Hamming weight or set bits count.
+
+Example:
+
+Input: n = 11  
+Binary = 1011  
+Output = 3

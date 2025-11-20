@@ -1,0 +1,10 @@
+🔥 Problem 2 — Generate All Permutations
+
+Problem Statement
+
+Given an array nums, return all permutations.
+
+Example:
+
+Input: [1,2]
+Output: [[1,2], [2,1]]

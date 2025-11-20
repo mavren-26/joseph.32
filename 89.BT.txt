@@ -1,0 +1,12 @@
+🔥 Problem 1 — Generate All Subsets (Power Set)
+
+Backtracking classic & super easy.
+
+Problem Statement
+
+Given an array of integers nums, return all possible subsets (the power set).
+
+Example:
+
+Input: [1,2]
+Output: [[], [1], [2], [1,2]]
