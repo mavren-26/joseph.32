@@ -1,0 +1,16 @@
+✨ Problem 2: Count Words With a Given Prefix
+Idea:
+
+Each Trie node stores:
+
+children
+
+count → how many words passed through this node
+
+isEnd (not necessary for prefix count, but good to keep)
+
+Time complexity:
+
+Insert: O(length of word)
+
+countPrefix: O(length of prefix)

@@ -1,0 +1,27 @@
+✅ Problem 1: Insert Words into a Trie & Search a Word
+Description:
+
+Implement a Trie with 2 operations:
+
+insert(word)
+
+search(word) → returns true if word exists in trie
+
+Example:
+
+Insert: ["apple", "app", "apt"]
+Search "app" → true
+Search "ap" → false
+
+Concept:
+
+Each character is a node.
+A boolean marks the end of a word.
+
+🔥 Expected Output:
+
+Searching exact words
+
+Not matching only prefixes
+
+This is the simplest Trie problem.
