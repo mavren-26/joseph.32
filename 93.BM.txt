@@ -1,0 +1,23 @@
+✅ Problem 1: Find the Two Unique Numbers
+
+Given an array where:
+
+Every number appears twice,
+
+Except two numbers which appear only once,
+Find those two unique numbers using bit manipulation.
+
+Example:
+
+Input:
+[4,1,2,1,2,5]
+Output:
+[4,5] (order doesn’t matter)
+
+🔥 Bit Trick:
+
+XOR of all elements = A ^ B (where A,B are unique)
+
+Find rightmost set bit to split array into two groups
+
+XOR groups separately → gives A and B
