@@ -1,0 +1,19 @@
+✅ Problem 1 (Easy): Check if Any Word Starts With a Prefix
+Description
+
+Insert words into a Trie.
+Implement:
+
+insert(word)
+
+startsWith(prefix) → return true if any word begins with prefix
+
+Example
+
+Words: ["cat", "car", "dog"]
+
+startsWith("ca") → true
+
+startsWith("do") → true
+
+startsWith("de") → false

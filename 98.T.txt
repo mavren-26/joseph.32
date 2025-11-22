@@ -1,0 +1,19 @@
+⭐ Problem 2 (Medium): Word Count With a Prefix
+Description
+
+Insert words into a Trie.
+Implement countPrefix(prefix) → return how many words start with this prefix.
+
+Example
+
+Words: ["apple", "app", "apt", "bat", "ball"]
+
+countPrefix("ap") → 3
+
+countPrefix("ba") → 2
+
+Concept
+
+Each node stores:
+
+count → number of words passing through that node
