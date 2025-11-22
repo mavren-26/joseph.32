@@ -1,0 +1,10 @@
+✅ Problem 4: Combination Sum (Medium)
+
+You are given an array of positive numbers and a target.
+Find all combinations where numbers sum to the target.
+You can reuse a number multiple times.
+
+Example
+
+Input: nums = [2,3,6,7], target = 7
+Output: [[2,2,3], [7]]

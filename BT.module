@@ -1,0 +1,28 @@
+⭐ Backtracking Explained (Like You're 5)
+
+Backtracking = try → go forward → if stuck → go back → try another option.
+
+Think of it like:
+
+👉 You're solving a maze.
+👉 You choose a path.
+👉 If you hit a dead end, you backtrack — go back to the last junction and try a new direction.
+
+In code:
+
+Choose something
+
+Explore deeper
+
+Undo the choice
+
+Try next option
+
+This is used for:
+✔ subsets
+✔ permutations
+✔ combinations
+✔ N-Queens
+✔ solving puzzles (Sudoku, Word Search)
+
+The key line is the undo step.

@@ -1,0 +1,7 @@
+✅ Problem 2 (Medium): Solve N-Queens for N=4
+
+Place N queens on an N×N board such that no two queens attack each other.
+
+Example Output for N=4
+
+[".Q..","...Q","Q...","..Q."]
